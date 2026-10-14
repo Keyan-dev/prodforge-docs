@@ -1,0 +1,17 @@
+{
+  "name": "prodforge-docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Usage documentation for create-prodforge",
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vue": "3.5.43"
+  }
+}
