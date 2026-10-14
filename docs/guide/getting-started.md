@@ -6,20 +6,6 @@
 - A package manager: pnpm (recommended), npm, yarn or bun
 - **Docker** if you want to run the database, Redis or the whole stack locally with `docker compose`
 
-::: warning Not on npm yet
-`create-prodforge` hasn't been published to the npm registry yet, so `npm create prodforge@latest` won't work until the first release. Until then, run it from source:
-
-```bash
-git clone https://github.com/Keyan-dev/create-prodforge.git
-cd create-prodforge
-pnpm install
-pnpm build
-node dist/index.js my-api          # same flags as below
-```
-
-Every command on this site that starts with `npm create prodforge@latest` works the same way with `node path/to/create-prodforge/dist/index.js`.
-:::
-
 ## Create a project
 
 ```bash
